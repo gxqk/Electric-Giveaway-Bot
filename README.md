@@ -56,9 +56,9 @@
 
 Once the bot is running, you can use the following slash commands:
 
-- `/tirage-au-sort`: Start a new giveaway with customizable options (duration, prize, number of winners).
+- `/giveaway`: Start a new giveaway with customizable options (duration, prize, number of winners).
 - `/reroll`: Reroll a giveaway to choose a new winner.
-- `/supprimer`: Delete an ongoing or completed giveaway.
+- `/delete`: Delete an ongoing or completed giveaway.
 - `/role`: Set a special role with permission to manage giveaways.
 
 ## Dependencies
