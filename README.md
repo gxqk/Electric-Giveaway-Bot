@@ -75,7 +75,9 @@ You can find these listed in the `requirements.txt` file.
 - ⭐⭐ *15 Stars* : Design improvements.
 - ⭐⭐⭐ : *30 Stars* : International bot rendering (bot can run on several servers at the same time and even be controlled by users on other servers, each server will have its own settings).
 
-# 
+# *❓_Need Help ?*
+
+My discord : `gxqk`
 
 ## License
 
