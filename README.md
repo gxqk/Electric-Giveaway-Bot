@@ -1,6 +1,6 @@
 # 🚫 Don't be a skid or reselling this code src, please !!!🚫
 # ✅ You have the right to modify the code, as long as you leave a trace of the author ( gxqk )
-# ⭐ See star Here [Click Here!](Stars objectives)
+# ⭐ See star Here [Click Here!](#stars-objectives)
 # ❓  Need Help ? [Get my Discord!]()
 
 
@@ -69,7 +69,7 @@ The bot requires the following Python libraries:
 
 You can find these listed in the `requirements.txt` file.
 
-# Stars objectives
+# **⭐Stars objectives⭐**
 
 - ⭐ *5 Stars* : Time updates ( New feature to choose your local time from a multitude of choices ).
 - ⭐⭐ *15 Stars* : Design improvements.
