@@ -80,6 +80,4 @@ You can find these listed in the `requirements.txt` file.
 My discord : `gxqk`
 Thanks, if i don't respond to you instantly. Remember i have a life!
 
-## License
-
-This project is licensed under the MIT License.
+![Image Bot](https://ibb.co/2gb3L8D)
