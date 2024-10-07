@@ -3,6 +3,8 @@
 # ⭐ See star Here [Click Here!](#stars-objectives)
 # ❓  Need Help ? [Get my Discord!](_need-help-)
 
+<a href="https://ibb.co/2gb3L8D"><img src="https://i.ibb.co/4PQRDs6/Leonardo-Phoenix-Design-an-electrifying-futuristic-image-for-a-2.jpg" alt="Leonardo-Phoenix-Design-an-electrifying-futuristic-image-for-a-2" border="0" /></a>
+
 
 # **⚡ Electric Giveaway Bot ⚡**
 
@@ -79,5 +81,3 @@ You can find these listed in the `requirements.txt` file.
 
 My discord : `gxqk`
 Thanks, if i don't respond to you instantly. Remember i have a life!
-
-![Image Bot](<a href="https://ibb.co/2gb3L8D"><img src="https://i.ibb.co/4PQRDs6/Leonardo-Phoenix-Design-an-electrifying-futuristic-image-for-a-2.jpg" alt="Leonardo-Phoenix-Design-an-electrifying-futuristic-image-for-a-2" border="0" /></a>)
