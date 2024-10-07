@@ -1,7 +1,7 @@
 # 🚫 Don't be a skid or reselling this code src, please !!!🚫
 # ✅ You have the right to modify the code, as long as you leave a trace of the author ( gxqk )
 # ⭐ See star Here [Click Here!](#stars-objectives)
-# ❓  Need Help ? [Get my Discord!]()
+# ❓  Need Help ? [Get my Discord!](_need-help-)
 
 
 # **⚡ Electric Giveaway Bot ⚡**
@@ -78,6 +78,7 @@ You can find these listed in the `requirements.txt` file.
 # *❓_Need Help ?*
 
 My discord : `gxqk`
+Thanks, if i don't respond to you instantly. Remember i have a life!
 
 ## License
 
