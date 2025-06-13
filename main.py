@@ -23,7 +23,7 @@ intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 giveaways = {}
-finished_giveaways = {}  # Liste des giveaways terminés
+finished_giveaways = {}
 special_role = config.get('special_role')
 
 def has_permission(interaction: Interaction):
@@ -77,7 +77,7 @@ def format_duration(duration: timedelta):
 @bot.event
 async def on_ready():
     print(f'The bot is ready. Connected as : {bot.user.name}')
-    check_giveaways.start()  # Démarrer la vérification des giveaways au démarrage du bot
+    check_giveaways.start()
 
 @bot.slash_command(name="giveaway", description="Start a giveaway")
 async def tirage_au_sort(
@@ -106,7 +106,7 @@ async def tirage_au_sort(
 
     durée_en_secondes = duration.total_seconds()
 
-    date_debut = datetime.now()  # Heure actuelle lors de la création du giveaway
+    date_debut = datetime.now()
     date_fin_str = format_date_relative(date_debut, duration)
 
     embed = Embed(
@@ -138,7 +138,7 @@ async def tirage_au_sort(
             print(f"The giveaway with the ID {message_id} don't appear in the database of giveaways.")
             return
 
-        await asyncio.sleep(durée_en_secondes)  # Attendre la durée du giveaway
+        await asyncio.sleep(durée_en_secondes)
 
         channel_id, prix, nombre_de_gagnants, guild_id, _ = giveaways[message_id]
         channel = bot.get_channel(channel_id)
@@ -173,7 +173,7 @@ async def tirage_au_sort(
             await channel.send("There are no participants, the giveaway have finish without winner.")
 
         if message_id not in finished_giveaways:
-            finished_giveaways[message_id] = True  # Marquer le giveaway comme terminé pour permettre les rerolls multiples
+            finished_giveaways[message_id] = True
 
     await fin_giveaway(message.id)
 
@@ -261,10 +261,9 @@ async def configure_role(
     await interaction.response.send_message(f"The special role has been configurate with success on '{role_name}'.", ephemeral=True)
  
 
-@tasks.loop(seconds=60)  # Vérifier les giveaways toutes les 60 secondes
+@tasks.loop(seconds=60)
 async def check_giveaways():
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
-    # Vérifier les giveaways terminés dans `finished_giveaways`
     for message_id in list(finished_giveaways.keys()):
         await fin_giveaway(message_id)
 
